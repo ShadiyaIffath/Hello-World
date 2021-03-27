@@ -36,4 +36,7 @@ function Circle(radius){
 const another = new Circle(1);
 another.draw();
 
+//adding properties on the fly
+cicle.location = {x : 1};
+circle["location"] = {x : 1};
 
